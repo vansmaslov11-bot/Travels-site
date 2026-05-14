@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #333;
+    background: #f4f4f4;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.menu-links {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-item-link {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item-link:hover {
+    color: #ff6f61;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('hero.jpg') center/cover;
+    color: white;
+}
+
+.hero-info {
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.intro {
+    padding: 50px;
+}
+
+.card {
+    display: flex;
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card-img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
